@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST_BOOTSTRAP</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-style: italic;
+            background-color: rgb(90, 84, 84);
+            color: rgb(49, 21, 85);
+        }
+        .h{
+            height: 25px;
+        }
+        .titre{
+             width: 1025px;
+             height:155px;
+             background-color: rgb(161, 114, 97);
+             border-top-right-radius: 16px;
+             border-bottom-left-radius: 6px;
+             text-align: center;
+             align-items: center;
+             padding-top: 33px;
+
+
+             box-shadow: 0px 11px 11px rgba(100,100,100, 44%);
+        }
+        .btn{
+        
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            background-color: chocolate;
+            border: 1px darkcyan solid;
+            padding: 4px;
+            border-radius: 2px;
+            box-shadow: 0px 11px 11px rgba(100,100,100, 44%);
+        }
+        .btn:hover{
+            color: #000;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            border: 1px darkcyan solid;
+            padding: 4px;
+            border-radius: 11px;
+            box-shadow: 0px 11px 11px rgba(100,100,100,99%);
+        }
+        .navbar:hover{
+            color: maroon;
+            cursor:pointer;
+            text-shadow:rgba(100, 55, 55, 0.44) ;
+            font-style: italic;
+            font-family: sans-serif;
+            font-weight: bolder;
+            text-decoration: underline;
+
+        }
+        .height{
+            height: 44px;
+        }
+        .hay{
+           height:  800px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container" mt-6>
+    <div class="h">
+
+    </div>
+
+ <div class="titre">
+<h1 style="color: maroon;">L'INTELLIGENCE ARTIFICIELLE</h1>
+</div>
+
+<h3>INTRODUCTION</h3>
+<p>
+    Comment l’IA va transformer le monde du génie tel qu’on le connaît?
+    L’intelligence artificielle sera au 21e siècle ce que l’électricité fut pour le 20e, elle transformera tout sur son
+    passage. Pour le génie, cette dernière fera « accélérer la discipline à vitesse grand V et lui permettra de se réaliser
+    pleinement », s’enthousiasme M. Boucher. « L’IA est là pour aider les ingénieurs en automatisant des tâches pour leur
+    permettre ainsi de se consacrer à des aspects plus fondamentaux de leur travail. »
+</p>
+
+    <hr>
+    
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="max-width: 80%" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="max-height: 300px;margin-bottom: 11px" src="./photos/intel4.jpeg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                    <h5>A QUOI SERT L’INTELLIGENCEARTIFICIELLE ?</h5>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="max-height: 300px;margin-bottom: 11px" src="./photos/intelartfcl.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>COMMENT L'EFFET DE L'INTELLIGENCE ARTIFICIELLE SUR L'ETRE HUMAIN </h5>
+                  
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="max-height: 300px;margin-bottom: 11px" src="./photos/inteligenceart.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>C'EST QUOI LE BUT D'INTELLIGENCE ARTIFICIELLE</h5>
+                    
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr>
+    <!--The Cards-->
+    
+    <h1>INFO 1</h1>
+    <div class="card" style="width: 18rem;background-color: aliceblue;float: left;margin: 33px;" >
+        
+        <img src="../m/digital.png.crdownload" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title" style="direction: rtl ;">Quelques benefits d'AI</h5>
+            <p class="card-text">
+                L’intelligence artificielle associe les logiciels à
+                des composants physiques (ou « hardware ») qui peuvent être des
+                capteurs, des interfaces pour l’utilisateur…
+    
+            </p>
+            <a href="https://blogue.genium360.ca/categorie/formation/" target="_balnk" class="btn btn-warning"
+                style="border-color: crimson;border-width: 4px;border-top-right-radius: 11px;border-bottom-left-radius: 11px">
+                En savoir plus
+            </a>
+        </div>
+    </div>
+    <h1>INFO 2</h1>
+    
+    <div class="card" style="width: 18rem;background-color: antiquewhite;float: left;margin: 25px;">
+        <img src="../m/photos/in.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title" style="direction: rtl ;">A propos d'AI</h5>
+            <p class="card-text">
+                Les chercheurs montrent un très grand nombre d’images ou de données numériques à une machine qui fonctionne
+                à base de
+                réseaux de neurones profonds (c’est-à-dire avec un très grand nombre de couches) en lui fixant un objectif
+                comme «
+                reconnaître un visage » ou « comprendre des panneaux de signalisation » ou « reconnaître un bruit sonore ».
+            </p>
+            <a href="https://blogue.genium360.ca/article/innovation/3-entreprises-qui-ripostent-a-la-penurie-de-main-duvre-grace-a-lia/" target="_balnk" class="btn btn-warning"
+                style="border-color: crimson;border-width: 4px;border-top-right-radius: 11px;border-bottom-left-radius: 11px">
+                En savoir plus
+            </a>
+        </div>
+    </div>
+    <h1>INFO 3</h1>
+    
+    <div class="card" style="width: 18rem;background-color: antiquewhite;float: left;margin: 33px;">
+        <img src="../m/photos/intart5.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title" style="direction: rtl ;">Protocoles d'IA</h5>
+            <p class="card-text">
+                Les intelligences artificielles développées aujourd’hui sont dites « faibles » : elles savent au mieux
+                imiter le
+                raisonnement de l’être humain et appliquer des protocoles qui guident leurs décisions. Ces machines semblent
+                agir comme
+                si elles étaient intelligentes, mais elles montrent leurs limites quand on leur fait passer le test de
+                Turing.
+                Le test de Turing
+                Le test de Turing du nom d’Alan Turing, pionnier de l’intelligence artificielle dans les années 50 et
+                inventeur du test,
+                a pour objectif, en s’adressant à une machine et à un humain lors d’un dialogue de détecter lequel est une
+                IA.
+            </p>
+            <a href="https://blogue.genium360.ca/article/innovation/3-entreprises-qui-ripostent-a-la-penurie-de-main-duvre-grace-a-lia/" target="_balnk" class="btn btn-warning"
+                style="border-color: crimson;border-width: 4px;border-top-right-radius: 11px;border-bottom-left-radius: 11px">
+                En savoir plus
+            </a>
+        </div>
+    </div>
+    <h1>ENRICHIR VOS INFORMATIONS :</h1>
+    <div style="width: min-content;float: left;margin: 17px;" >
+
+    <p >
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+            aria-expanded="false" aria-controls="collapseWidthExample">
+             Importance d'AI
+        </button>
+    </p>
+    </div>
+    <div style="min-height: 120px;float: left;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+              
+                 Pour parler de l'IA à vos collègues, il faut connaître ces termes :
+    1. Machine Learning (Apprentissage automatique)
+    Une des principales disciplines de l’IA est le Machine Learning,
+    aussi nommé l’apprentissage
+    automatique. Il s’agit d’exploiter des données brutes, de les transformer en connaissances et ce, de
+    manière automatique afin de prendre de meilleures décisions d’affaires. L’apprentissage automatique
+        permet ainsi d’utiliser un modèle d’algorithmes pour piloter des stratégies
+    d’affaires (data-driven strategy). Pour en savoir plus :
+    L’apprentissage automatique (Machine Learning), comment ça marche ?
+                <img src="./photos/intel3.jpeg" >
+            </div>
+        </div>
+    </div>
+
+
+<div  >
+    <div style="min-height: 120px; margin: 55px;float: left;margin-right: 10px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+                2.Deep Learning (Apprentissage profond)
+                Le Deep Learning est une technique d’apprentissage automatique, une sous-catégorie de l’intelligence artificielle, qui
+                permet de créer un réseau de neurones pour permettre à la machine d’apprendre par elle-même. Par exemple, pour qu’une
+                machine reconnaisse le texte ou le visage d’une personne sur une image, la machine décompose l’image et va reconnaître
+                des caractéristiques telles que la bouche, le visage, les cheveux, etc. «Avec les méthodes traditionnelles, la machine
+                se contente de comparer les pixels. Le deep learning permet un apprentissage sur des caractéristiques plus abstraites
+                que des valeurs de pixels, qu'elle va elle-même construire», précise Yann Ollivier, chercheur en IA au CNRS.
+                <img src="../m/photos/inteart1.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div>
+    <div >
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;float: right;">
+                3.Réseau de neurones
+                L’apprentissage profond se sert de neurones artificiels interconnectés et organisés, qui grâce à des algorithmes
+                d’apprentissage, permettent des applications concrètes telles que la reconnaissance des formes, la traduction d’un
+                document ou la description d’une image. «Les réseaux de neurones n’essaient pas de copier ou de simuler le cerveau.
+                Simplement, ça nous donne des idées pour construire des machines, des ordinateurs qui s’inspirent de ces principes.» -
+                Yoshua Bengio, directeur de l’Institut des algorithmes d’apprentissage (MILA), Université de Montréal. La révolution de
+                l’intelligence artificielle
+                <img src="./photos/intelartificiel.large.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+</div>
+<div class="hay">
+
+</div>
+    
+<div class="container-fluid">
+    <nav aria-label="Page navigation example">
+<ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+        <a class="page-link">Précédent</a>
+    </li>
+    <li class="page-item"><a class="page-link"
+            href="https://blogue.genium360.ca/article/innovation/3-entreprises-qui-ripostent-a-la-penurie-de-main-duvre-grace-a-lia/">1</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="https://blogue.genium360.ca/categorie/formation/">2</a></li>
+    <li class="page-item">
+        <a class="page-link" href="#">Suivant</a>
+    </li>
+</ul>
+</nav>
+</div>
+
+
+</body>
+
+</html>
